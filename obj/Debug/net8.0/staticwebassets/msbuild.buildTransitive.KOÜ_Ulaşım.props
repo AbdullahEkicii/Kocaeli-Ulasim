@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\KOÜ_Ulaşım.props" />
+</Project>

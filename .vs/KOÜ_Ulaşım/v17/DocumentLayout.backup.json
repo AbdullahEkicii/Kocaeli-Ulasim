@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\services\\rotaplanlamaservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:services\\rotaplanlamaservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\services\\veriservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:services\\veriservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\services\\transferservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:services\\transferservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\services\\taksiservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:services\\taksiservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\services\\rotaplanlayici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:services\\rotaplanlayici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\services\\rotaservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:services\\rotaservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\views\\home\\rotasonuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:views\\home\\rotasonuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\models\\yolcu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:models\\yolcu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\models\\\u00F6deme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:models\\\u00F6deme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|c:\\users\\emirh\\onedrive\\masa\u00FCst\u00FC\\ko\u00FC_ula\u015F\u0131mapo\\models\\durak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D2CFA4-9E9D-4975-91ED-6C9FC09B0FB2}|KO\u00DC_Ula\u015F\u0131m.csproj|solutionrelative:models\\durak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RotaSonuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Views\\Home\\RotaSonuc.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\RotaSonuc.cshtml",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Views\\Home\\RotaSonuc.cshtml",
+              "RelativeToolTip": "Views\\Home\\RotaSonuc.cshtml",
+              "ViewState": "AgIAAP0BAAAAAAAAAAAAwDYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T22:47:43.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAswNsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:41:05.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaksiServisi.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\TaksiServisi.cs",
+              "RelativeDocumentMoniker": "Services\\TaksiServisi.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\TaksiServisi.cs",
+              "RelativeToolTip": "Services\\TaksiServisi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T23:05:48.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RotaPlanlamaServisi.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\RotaPlanlamaServisi.cs",
+              "RelativeDocumentMoniker": "Services\\RotaPlanlamaServisi.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\RotaPlanlamaServisi.cs",
+              "RelativeToolTip": "Services\\RotaPlanlamaServisi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:48:55.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RotaPlanlayici.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\RotaPlanlayici.cs",
+              "RelativeDocumentMoniker": "Services\\RotaPlanlayici.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\RotaPlanlayici.cs",
+              "RelativeToolTip": "Services\\RotaPlanlayici.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T22:17:08.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransferServisi.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\TransferServisi.cs",
+              "RelativeDocumentMoniker": "Services\\TransferServisi.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\TransferServisi.cs",
+              "RelativeToolTip": "Services\\TransferServisi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T13:24:13.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VeriServisi.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\VeriServisi.cs",
+              "RelativeDocumentMoniker": "Services\\VeriServisi.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\VeriServisi.cs",
+              "RelativeToolTip": "Services\\VeriServisi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T22:17:14.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RotaServisi.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\RotaServisi.cs",
+              "RelativeDocumentMoniker": "Services\\RotaServisi.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Services\\RotaServisi.cs",
+              "RelativeToolTip": "Services\\RotaServisi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:02:28.274Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "\u00D6deme.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Models\\\u00D6deme.cs",
+              "RelativeDocumentMoniker": "Models\\\u00D6deme.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Models\\\u00D6deme.cs",
+              "RelativeToolTip": "Models\\\u00D6deme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T22:20:04.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Yolcu.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Models\\Yolcu.cs",
+              "RelativeDocumentMoniker": "Models\\Yolcu.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Models\\Yolcu.cs",
+              "RelativeToolTip": "Models\\Yolcu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T22:17:36.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Durak.cs",
+              "DocumentMoniker": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Models\\Durak.cs",
+              "RelativeDocumentMoniker": "Models\\Durak.cs",
+              "ToolTip": "C:\\Users\\emirh\\OneDrive\\Masa\u00FCst\u00FC\\KO\u00DC_Ula\u015F\u0131mapo\\Models\\Durak.cs",
+              "RelativeToolTip": "Models\\Durak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T22:15:24.081Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1234,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
