@@ -1,0 +1,146 @@
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\appsettings.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.staticwebassets.runtime.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.staticwebassets.endpoints.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.exe
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.deps.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.runtimeconfig.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.dll
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.pdb
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.AssemblyReference.cache
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.AssemblyInfoInputs.cache
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.AssemblyInfo.cs
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.CoreCompileInputs.cache
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.RazorAssemblyInfo.cache
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.RazorAssemblyInfo.cs
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\scopedcss\bundle\KOÜ_Ulaşım.styles.css
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\scopedcss\projectbundle\KOÜ_Ulaşım.bundle.scp.css
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.KOÜ_Ulaşım.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.KOÜ_Ulaşım.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.build.KOÜ_Ulaşım.props
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KOÜ_Ulaşım.props
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KOÜ_Ulaşım.props
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.Up2Date
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.dll
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\refint\KOÜ_Ulaşım.dll
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.pdb
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.genruntimeconfig.cache
+C:\Users\emirh\source\repos\KOÜ_Ulaşım\obj\Debug\net8.0\ref\KOÜ_Ulaşım.dll
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\appsettings.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.staticwebassets.endpoints.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.staticwebassets.runtime.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.exe
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.deps.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.runtimeconfig.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.dll
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\KOÜ_Ulaşım.pdb
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.AssemblyReference.cache
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.AssemblyInfoInputs.cache
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.AssemblyInfo.cs
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.RazorAssemblyInfo.cache
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.RazorAssemblyInfo.cs
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\scopedcss\bundle\KOÜ_Ulaşım.styles.css
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\scopedcss\projectbundle\KOÜ_Ulaşım.bundle.scp.css
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.KOÜ_Ulaşım.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.KOÜ_Ulaşım.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.build.KOÜ_Ulaşım.props
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KOÜ_Ulaşım.props
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KOÜ_Ulaşım.props
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.Up2Date
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.dll
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\refint\KOÜ_Ulaşım.dll
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.pdb
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\KOÜ_Ulaşım.genruntimeconfig.cache
+C:\Users\Abdullah Ekici\Desktop\KOÜ_Ulaşım\obj\Debug\net8.0\ref\KOÜ_Ulaşım.dll
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\appsettings.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\KOÜ_Ulaşım.staticwebassets.runtime.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\KOÜ_Ulaşım.staticwebassets.endpoints.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\KOÜ_Ulaşım.exe
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\KOÜ_Ulaşım.deps.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\KOÜ_Ulaşım.runtimeconfig.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\KOÜ_Ulaşım.dll
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\KOÜ_Ulaşım.pdb
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.AssemblyReference.cache
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.AssemblyInfoInputs.cache
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.AssemblyInfo.cs
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.CoreCompileInputs.cache
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.RazorAssemblyInfo.cache
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.RazorAssemblyInfo.cs
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\scopedcss\bundle\KOÜ_Ulaşım.styles.css
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\scopedcss\projectbundle\KOÜ_Ulaşım.bundle.scp.css
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets\msbuild.KOÜ_Ulaşım.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets\msbuild.KOÜ_Ulaşım.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets\msbuild.build.KOÜ_Ulaşım.props
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KOÜ_Ulaşım.props
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KOÜ_Ulaşım.props
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.Up2Date
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.dll
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\refint\KOÜ_Ulaşım.dll
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.pdb
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\KOÜ_Ulaşım.genruntimeconfig.cache
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\ref\KOÜ_Ulaşım.dll
+C:\Users\emirh\OneDrive\Masaüstü\KOÜ_Ulaşımapo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\appsettings.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\KOÜ_Ulaşım.staticwebassets.endpoints.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\KOÜ_Ulaşım.staticwebassets.runtime.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\KOÜ_Ulaşım.exe
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\KOÜ_Ulaşım.deps.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\KOÜ_Ulaşım.runtimeconfig.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\KOÜ_Ulaşım.dll
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\KOÜ_Ulaşım.pdb
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.AssemblyReference.cache
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.AssemblyInfoInputs.cache
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.AssemblyInfo.cs
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.CoreCompileInputs.cache
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.RazorAssemblyInfo.cache
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.RazorAssemblyInfo.cs
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\scopedcss\bundle\KOÜ_Ulaşım.styles.css
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\scopedcss\projectbundle\KOÜ_Ulaşım.bundle.scp.css
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets\msbuild.KOÜ_Ulaşım.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets\msbuild.KOÜ_Ulaşım.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets\msbuild.build.KOÜ_Ulaşım.props
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.KOÜ_Ulaşım.props
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.KOÜ_Ulaşım.props
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.csproj.Up2Date
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.dll
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\refint\KOÜ_Ulaşım.dll
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.pdb
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\KOÜ_Ulaşım.genruntimeconfig.cache
+C:\Users\Abdullah Ekici\Desktop\proje1\230201023-230201027\obj\Debug\net8.0\ref\KOÜ_Ulaşım.dll

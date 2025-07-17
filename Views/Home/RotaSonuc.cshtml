@@ -1,0 +1,566 @@
+﻿@{
+    ViewData["Title"] = "Rota Sonucu";
+    
+    List<string> rotaListesi = null;
+    List<string> detayliRotaListesi = null;
+    
+    // Güvenli şekilde ViewBag değerlerini al
+    bool baslangictaTaksiGerekli = ViewBag.BaslangictaTaksiGerekli != null && (bool)ViewBag.BaslangictaTaksiGerekli;
+    bool hedefteTaksiGerekli = ViewBag.HedefteTaksiGerekli != null && (bool)ViewBag.HedefteTaksiGerekli;
+    double taksiUcreti = ViewBag.TaksiUcreti != null ? (double)ViewBag.TaksiUcreti : 0;
+    double toplamMesafe = ViewBag.ToplamMesafe != null ? (double)ViewBag.ToplamMesafe : 0;
+    int toplamSure = ViewBag.ToplamSure != null ? (int)ViewBag.ToplamSure : 0;
+    double toplamUcret = ViewBag.ToplamUcret != null ? (double)ViewBag.ToplamUcret : 0;
+    double kentKartUcreti = ViewBag.KentKartUcreti != null ? (double)ViewBag.KentKartUcreti : 0;
+    double toplamBakiye = ViewBag.ToplamBakiye != null ? (double)ViewBag.ToplamBakiye : 0;
+    string yolcuTipi = ViewBag.YolcuTipi ?? "Genel";
+    double indirimOrani = ViewBag.IndirimOrani != null ? (double)ViewBag.IndirimOrani : 0;
+    
+    // Duraklara ait bilgiler
+    var baslangicDurak = ViewBag.BaslangicDurak;
+    var hedefDurak = ViewBag.HedefDurak;
+    
+    // Alternatif rotalar
+    var sadeceOtobusRota = ViewBag.SadeceOtobusRota as List<string>;
+    var tramvayOncelikliRota = ViewBag.TramvayOncelikliRota as List<string>;
+    
+    // Kullanıcı ve hedef koordinatları
+    var kullaniciKonum = ViewBag.KullaniciKonum;
+    var hedefKonum = ViewBag.HedefKonum;
+    
+    try
+    {
+        if (ViewBag.RotaBilgisi != null)
+        {
+            var rotaTuple = ViewBag.RotaBilgisi as Tuple<List<string>, List<string>>;
+            if (rotaTuple != null)
+            {
+                rotaListesi = rotaTuple.Item1;
+                detayliRotaListesi = rotaTuple.Item2;
+                
+                // Boş liste kontrolü
+                if (rotaListesi == null) rotaListesi = new List<string>();
+                if (detayliRotaListesi == null) detayliRotaListesi = new List<string>();
+                
+                Console.WriteLine($"RotaSonuc View: rotaListesi eleman sayısı: {rotaListesi.Count}, detayliRotaListesi eleman sayısı: {detayliRotaListesi.Count}");
+            }
+            else
+            {
+                Console.WriteLine("RotaSonuc View: ViewBag.RotaBilgisi tuple dönüşümü başarısız!");
+                rotaListesi = new List<string>();
+                detayliRotaListesi = new List<string>(); 
+            }
+        }
+        else
+        {
+            Console.WriteLine("RotaSonuc View: ViewBag.RotaBilgisi null!");
+            rotaListesi = new List<string>();
+            detayliRotaListesi = new List<string>();
+        }
+    }
+    catch (Exception ex)
+    {
+        // Hata durumunda log ve boş liste ata
+        Console.WriteLine($"RotaSonuc view hatası: {ex.Message}");
+        rotaListesi = new List<string>();
+        detayliRotaListesi = new List<string>();
+    }
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span><i class="fas fa-route me-2"></i>Hesaplanan Rota Sonucu</span>
+                <a href="/" class="btn btn-sm btn-outline-primary">
+                    <i class="fas fa-calculator me-1"></i>Yeni Rota Hesapla
+                </a>
+            </div>
+            <div class="card-body">
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <!-- Özet bilgi kartı -->
+                        <div class="card shadow-sm border-primary">
+                            <div class="card-body p-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4 class="mb-3 text-primary">
+                                            <i class="fas fa-map-marked-alt me-2"></i>Rota Özeti
+                                        </h4>
+                                        <div class="alert alert-info">
+                                            <h5 class="alert-heading"><i class="fas fa-info-circle me-2"></i>Rota Bilgisi</h5>
+                                            <p>Aşağıdaki rotayı takip ederek hedefinize ulaşabilirsiniz:</p>
+                                            <ul class="list-group mt-3">
+                                                @if (rotaListesi != null && rotaListesi.Count > 0)
+                                                {
+                                                    foreach (var adim in rotaListesi)
+                                                    {
+                                                        <li class="list-group-item">
+                                                            @if (adim.Contains("Taksi"))
+                                                            {
+                                                                <i class="fas fa-taxi text-warning me-2"></i>
+                                                            }
+                                                            else if (adim.Contains("TRAM") || adim.Contains("Tram"))
+                                                            {
+                                                                <i class="fas fa-train text-success me-2"></i>
+                                                            }
+                                                            else
+                                                            {
+                                                                <i class="fas fa-bus text-info me-2"></i>
+                                                            }
+                                                            @adim
+                                                        </li>
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <li class="list-group-item">
+                                                        <i class="fas fa-exclamation-triangle text-danger me-2"></i>
+                                                        Rota bilgisi bulunamadı!
+                                                    </li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-8">
+                        <!-- Detaylı Bilgiler -->
+                        <div class="card mb-4">
+                            <div class="card-header bg-primary text-white">
+                                <i class="fas fa-info-circle me-2"></i>Yolculuk Detayları
+                            </div>
+                            <div class="card-body">
+                                <!-- Rota özeti -->
+                                <div class="row mb-4">
+                                    <div class="col-md-4">
+                                        <div class="d-flex flex-column align-items-center text-center mb-3">
+                                            <div class="display-4 mb-2"><i class="fas fa-road text-primary"></i></div>
+                                            <h5 class="mb-0">Toplam Mesafe</h5>
+                                            <p class="display-6 font-weight-bold mb-0">@toplamMesafe km</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="d-flex flex-column align-items-center text-center mb-3">
+                                            <div class="display-4 mb-2"><i class="fas fa-clock text-warning"></i></div>
+                                            <h5 class="mb-0">Toplam Süre</h5>
+                                            <p class="display-6 font-weight-bold mb-0">@toplamSure dk</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="d-flex flex-column align-items-center text-center mb-3">
+                                            <div class="display-4 mb-2">
+                                                @if (baslangictaTaksiGerekli || hedefteTaksiGerekli)
+                                                {
+                                                    <i class="fas fa-taxi text-warning"></i>
+                                                }
+                                                else if (rotaListesi?.Any(r => r.Contains("TRAM") || r.Contains("Tram")) == true)
+                                                {
+                                                    <i class="fas fa-train text-success"></i>
+                                                }
+                                                else
+                                                {
+                                                    <i class="fas fa-bus text-info"></i>
+                                                }
+                                            </div>
+                                            <h5 class="mb-0">Araç Tipi</h5>
+                                            <p class="display-6 font-weight-bold mb-0">
+                                                @if (baslangictaTaksiGerekli || hedefteTaksiGerekli)
+                                                {
+                                                    <span>Taksi + Toplu Ulaşım</span>
+                                                }
+                                                else if (rotaListesi?.Any(r => r.Contains("TRAM") || r.Contains("Tram")) == true)
+                                                {
+                                                    if (rotaListesi?.Any(r => r.Contains("BUS") || r.Contains("Bus")) == true)
+                                                    {
+                                                        <span>Otobüs + Tramvay</span>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span>Sadece Tramvay</span>
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <span>Sadece Otobüs</span>
+                                                }
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                @if (detayliRotaListesi?.Any(r => r.Contains("Transfer")) == true)
+                                {
+                                    <div class="alert alert-success mt-3">
+                                        <h5 class="alert-heading"><i class="fas fa-percentage me-2"></i>Aktarma İndirimi Uygulandı!</h5>
+                                        <p class="mb-0">Otobüs-Tramvay aktarması yapılan rotanızda indirimli tarife uygulanmıştır. Aktarma indirimi: <strong>-2.50 ₺</strong></p>
+                                    </div>
+                                }
+
+                                @if (indirimOrani > 0)
+                                {
+                                    <div class="alert alert-info mt-3">
+                                        <h5 class="alert-heading"><i class="fas fa-user-tag me-2"></i>Yolcu İndirimi Uygulandı!</h5>
+                                        <p class="mb-0">@yolcuTipi yolcu tipinize özel <strong>%@indirimOrani</strong> indirim uygulanmıştır.</p>
+                                    </div>
+                                }
+                                
+                                <!-- Duraklar Arası Mesafe Bilgisi -->
+                                @if (rotaListesi != null && rotaListesi.Count > 1)
+                                {
+                                    <div class="mt-4">
+                                        <h5 class="mb-3"><i class="fas fa-exchange-alt me-2"></i>Duraklar Arası Bilgiler</h5>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Başlangıç</th>
+                                                        <th>Hedef</th>
+                                                        <th>Mesafe</th>
+                                                        <th>Taşıt</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @for (int i = 0; i < rotaListesi.Count - 1 && i + 1 < rotaListesi.Count; i++)
+                                                    {
+                                                        <tr>
+                                                            <td>@rotaListesi[i]</td>
+                                                            <td>@rotaListesi[i+1]</td>
+                                                            <td>
+                                                                @{
+                                                                    // Basit tahmini mesafe (gerçekte bu değerlerin veritabanında olması gerekir)
+                                                                    double tahminiMesafe = i < 3 ? (i + 1.5) : 2.0;
+                                                                }
+                                                                @tahminiMesafe km
+                                                            </td>
+                                                            <td>
+                                                                @if (rotaListesi[i].Contains("Bus"))
+                                                                {
+                                                                    <span class="badge bg-info">Otobüs</span>
+                                                                }
+                                                                else if (rotaListesi[i].Contains("Tram"))
+                                                                {
+                                                                    <span class="badge bg-success">Tramvay</span>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <span class="badge bg-secondary">Diğer</span>
+                                                                }
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="alert alert-warning mt-4">
+                                        <i class="fas fa-exclamation-triangle me-2"></i>
+                                        Duraklar arası bilgi gösterilemedi. Yetersiz rota bilgisi.
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        
+                        @if (taksiUcreti > 0)
+                        {
+                            <div class="alert alert-warning mb-4">
+                                <h5><i class="fas fa-taxi me-2"></i>Taksi Kullanımı</h5>
+                                <p class="mb-0">
+                                    @if (baslangictaTaksiGerekli)
+                                    {
+                                        <span class="d-block mb-2"><i class="fas fa-info-circle me-1"></i>Başlangıç noktanız en yakın durağa 3 km'den uzak olduğu için taksi kullanmanız önerilir.</span>
+                                    }
+                                    @if (hedefteTaksiGerekli)
+                                    {
+                                        <span class="d-block mb-2"><i class="fas fa-info-circle me-1"></i>Hedef noktanız en yakın durağa 3 km'den uzak olduğu için taksi kullanmanız önerilir.</span>
+                                    }
+                                    <strong>Taksi Ücreti:</strong> @taksiUcreti ₺
+                                </p>
+                            </div>
+                        }
+                        
+                        <!-- Alternatif Rotalar -->
+                        <div class="card mb-3">
+                            <div class="card-header bg-primary text-white">
+                                <i class="fas fa-exchange-alt me-2"></i>Alternatif Rotalar
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="accordion" id="rotaAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#anaRota">
+                                                <i class="fas fa-route text-primary me-2"></i>Ana Rota
+                                            </button>
+                                        </h2>
+                                        <div id="anaRota" class="accordion-collapse collapse show" data-bs-parent="#rotaAccordion">
+                                            <div class="accordion-body">
+                                                <div class="d-flex align-items-center mb-2">
+                                                    <div class="route-dot bg-primary me-2"></div>
+                                                    <span>Hesaplanan en uygun rota</span>
+                                                </div>
+                                                <ul class="list-group mt-2">
+                                                    @if (rotaListesi != null)
+                                                    {
+                                                        foreach (var durak in rotaListesi)
+                                                        {
+                                                            <li class="list-group-item">
+                                                                @if (durak.Contains("Bus"))
+                                                                {
+                                                                    <i class="fas fa-bus text-info me-2"></i>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <i class="fas fa-train text-success me-2"></i>
+                                                                }
+                                                                @durak
+                                                            </li>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <li class="list-group-item">
+                                                            <i class="fas fa-exclamation-triangle text-danger me-2"></i>
+                                                            Rota bilgisi bulunamadı!
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#taksiRota">
+                                                <i class="fas fa-taxi text-warning me-2"></i>Sadece Taksi
+                                            </button>
+                                        </h2>
+                                        <div id="taksiRota" class="accordion-collapse collapse" data-bs-parent="#rotaAccordion">
+                                            <div class="accordion-body">
+                                                <div class="d-flex align-items-center mb-2">
+                                                    <div class="route-dot bg-warning me-2"></div>
+                                                    <span>Taksi ile doğrudan hedefe ulaşım</span>
+                                                </div>
+                                                <p><i class="fas fa-route me-2"></i>Toplam Mesafe: 
+                                                    @{
+                                                        try {
+                                                            if (kullaniciKonum != null && hedefKonum != null)
+                                                            {
+                                                                double taksiMesafe = TaksiServisi.MesafeHesapla(
+                                                                    (double)kullaniciKonum.Lat, 
+                                                                    (double)kullaniciKonum.Lon, 
+                                                                    (double)hedefKonum.Lat, 
+                                                                    (double)hedefKonum.Lon
+                                                                );
+                                                                <text>@taksiMesafe km</text>
+                                                                <p class="mb-0">
+                                                                    <i class="fas fa-money-bill-wave me-2"></i>
+                                                                    <strong>Tahmini Ücret:</strong> @(TaksiServisi.UcretHesapla(taksiMesafe)) ₺
+                                                                </p>
+                                                            }
+                                                            else
+                                                            {
+                                                                <text>Hesaplanamadı</text>
+                                                                <p class="text-danger mb-0">Koordinat bilgisi bulunamadı</p>
+                                                            }
+                                                        } catch (Exception ex) {
+                                                            <text>Hesaplanamadı</text>
+                                                            <p class="text-danger mb-0">Hesaplama hatası: @ex.Message</p>
+                                                        }
+                                                    }
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#otobusRota">
+                                                <i class="fas fa-bus text-info me-2"></i>Sadece Otobüs
+                                            </button>
+                                        </h2>
+                                        <div id="otobusRota" class="accordion-collapse collapse" data-bs-parent="#rotaAccordion">
+                                            <div class="accordion-body">
+                                                @if (ViewBag.SadeceOtobusRota != null && ViewBag.SadeceOtobusRota.Count > 0)
+                                                {
+                                                    <ul class="list-group">
+                                                        @foreach (var durak in ViewBag.SadeceOtobusRota)
+                                                        {
+                                                            <li class="list-group-item d-flex align-items-center">
+                                                                <div class="route-dot bg-info me-2"></div>
+                                                                @durak
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                }
+                                                else
+                                                {
+                                                    <p class="text-muted mb-0">Sadece otobüs ile rota bulunamadı.</p>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tramvayRota">
+                                                <i class="fas fa-train text-success me-2"></i>Tramvay Öncelikli
+                                            </button>
+                                        </h2>
+                                        <div id="tramvayRota" class="accordion-collapse collapse" data-bs-parent="#rotaAccordion">
+                                            <div class="accordion-body">
+                                                @if (ViewBag.TramvayOncelikliRota != null && ViewBag.TramvayOncelikliRota.Count > 0)
+                                                {
+                                                    <ul class="list-group">
+                                                        @foreach (var durak in ViewBag.TramvayOncelikliRota)
+                                                        {
+                                                            <li class="list-group-item d-flex align-items-center">
+                                                                <div class="route-dot bg-success me-2"></div>
+                                                                @durak
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                }
+                                                else
+                                                {
+                                                    <p class="text-muted mb-0">Tramvay öncelikli rota bulunamadı.</p>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <!-- Ödeme Bilgileri -->
+                        <div class="card mb-4">
+                            <div class="card-header bg-success text-white">
+                                <i class="fas fa-money-bill-wave me-2"></i>Ödeme Bilgileri
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="d-flex flex-column align-items-center text-center">
+                                            <div class="mb-2"><i class="fas fa-id-card fa-2x text-primary"></i></div>
+                                            <h6>KentKart ile Ödeme</h6>
+                                            <p class="mb-0 fw-bold text-success">@kentKartUcreti ₺</p>
+                                            <small class="text-muted">%10 KentKart indirimi</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="d-flex flex-column align-items-center text-center">
+                                            <div class="mb-2"><i class="fas fa-coins fa-2x text-warning"></i></div>
+                                            <h6>Nakit/Kredi Kartı</h6>
+                                            <p class="mb-0 fw-bold">@toplamUcret ₺</p>
+                                            <small class="text-muted">Standart tarife</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="alert @(toplamBakiye >= toplamUcret ? "alert-success" : "alert-danger")">
+                                    <h6 class="alert-heading">
+                                        <i class="fas @(toplamBakiye >= toplamUcret ? "fa-check-circle" : "fa-exclamation-circle") me-2"></i>
+                                        Bakiye Durumu
+                                    </h6>
+                                    <p class="mb-0">Toplam Bakiyeniz: <strong>@toplamBakiye ₺</strong></p>
+                                    @if (toplamBakiye < toplamUcret)
+                                    {
+                                        <small class="text-danger">Yetersiz bakiye! Lütfen bakiye yükleyiniz.</small>
+                                    }
+                                </div>
+                                <div class="d-grid">
+                                    <button class="btn btn-success" @(toplamBakiye < toplamUcret ? "disabled" : "")>
+                                        <i class="fas fa-credit-card me-2"></i>Ödeme Yap
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Detaylı Rota -->
+                        <div class="card mb-4">
+                            <div class="card-header bg-primary text-white">
+                                <i class="fas fa-list me-2"></i>Detaylı Rota Adımları
+                            </div>
+                            <div class="card-body p-0">
+                                @if (detayliRotaListesi == null || !detayliRotaListesi.Any())
+                                {
+                                    <div class="p-3">
+                                        <div class="alert alert-danger mb-0">
+                                            <i class="fas fa-exclamation-triangle me-2"></i>Rota bulunamadı.
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="list-group list-group-flush">
+                                        @for (int i = 0; i < detayliRotaListesi.Count; i++)
+                                        {
+                                            var adim = detayliRotaListesi[i];
+                                            <div class="list-group-item d-flex align-items-center py-3">
+                                                <div class="me-3">
+                                                    <div class="route-step">@(i+1)</div>
+                                                </div>
+                                                <div>
+                                                    @if (adim.Contains("Taksi"))
+                                                    {
+                                                        <i class="fas fa-taxi text-warning me-2"></i> <strong>Taksi</strong>
+                                                        <p class="mb-0 text-muted">@adim</p>
+                                                    }
+                                                    else if (adim.Contains("Yürüyerek"))
+                                                    {
+                                                        <i class="fas fa-walking text-primary me-2"></i> <strong>Yürüyerek</strong>
+                                                        <p class="mb-0 text-muted">@adim</p>
+                                                    }
+                                                    else if (adim.Contains("Transfer"))
+                                                    {
+                                                        <i class="fas fa-exchange-alt text-danger me-2"></i> <strong>Transfer</strong>
+                                                        <p class="mb-0 text-muted">@adim</p>
+                                                        <span class="badge bg-success mt-1">Aktarma İndirimi: -2.50 ₺</span>
+                                                    }
+                                                    else if (adim.Contains("BUS"))
+                                                    {
+                                                        <i class="fas fa-bus text-info me-2"></i> <strong>Otobüs</strong>
+                                                        <p class="mb-0 text-muted">@adim</p>
+                                                    }
+                                                    else if (adim.Contains("TRAM"))
+                                                    {
+                                                        <i class="fas fa-train text-success me-2"></i> <strong>Tramvay</strong>
+                                                        <p class="mb-0 text-muted">@adim</p>
+                                                    }
+                                                    else if (adim.Contains("Başlangıç"))
+                                                    {
+                                                        <i class="fas fa-map-marker-alt text-danger me-2"></i> <strong>Başlangıç Noktası</strong>
+                                                        <p class="mb-0 text-muted">@adim</p>
+                                                    }
+                                                    else
+                                                    {
+                                                        <i class="fas fa-info-circle text-secondary me-2"></i>
+                                                        <p class="mb-0 text-muted">@adim</p>
+                                                    }
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            console.log("Rota sonucu sayfası yüklendi");
+        });
+    </script>
+}
